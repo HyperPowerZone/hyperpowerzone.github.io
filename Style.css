@@ -1,0 +1,15 @@
+.part1 {
+    text-align: center;
+
+}
+
+button {
+    background-color:#979797;
+    margin: 10px;
+    font-size:20px;
+    text-align: center;
+    border-radius:10px;
+    cursor: pointer;
+    padding: 10px 12px;   
+
+}
