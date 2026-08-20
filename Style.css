@@ -1,15 +1,66 @@
-.part1 {
+section {
     text-align: center;
+    display: block;
+    margin: 45px 0 0 0;
+    font-family: sans-serif;
+}
+.nitrobolt {
+    background: red;
+    margin-top: 75px;
+    border-radius: 8px;
+}
 
+#nitrobolt-text {
+    font-size: 26px;
+    text-shadow: 0px 6px 10px #910018;
+    -webkit-text-fill-color: #fdefef;
+    padding: 10px 0px;
+}
+
+#white-link {
+    -webkit-text-fill-color: #fdefef;   
+}
+
+h1 {
+    font-size: 26px;
+    text-shadow: 0px 6px 10px #bad0d6;
+    -webkit-text-fill-color: #0c1326;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 0px 24px;
+    font-family: sans-serif;
+    -webkit-text-fill-color: #ffffff;
+}
+
+#normal-link {
+    -webkit-text-fill-color: #0c57fa;   
 }
 
 button {
-    background-color:#979797;
-    margin: 10px;
-    font-size:20px;
-    text-align: center;
-    border-radius:10px;
-    cursor: pointer;
-    padding: 10px 12px;   
+    background-image: linear-gradient(
+        #ffffff 45%,
+        #bad0d6 95%,
+        #ffffff 100%
+    );
+    font-size: 20px;
+    border: 0px;
+    border-radius: 12px;
+    padding: 10px 14px;
+}
 
+nav {
+    background-image: linear-gradient(
+        #53647a 0%,
+        #7d929e 100%
+    );
+    box-shadow: 0px 0px 30px #bad0d6;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 4px 8px;
 }
