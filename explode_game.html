@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<!-- Created with https://packager.nitrobolt.org/ -->
+<!DOCTYPE html><<!-- Created with https://packager.nitrobolt.org/ -->
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title>explode_game</title>
+  <title>Explode game</title>
   <style>
     body {
       color: #ffffff;
@@ -534,6 +533,33 @@ return new e(t,"base64").toString("binary")}:"object"==typeof n.base64js?functio
         const buffer = projectDecodeBuffer;
         projectDecodeBuffer = null; // Allow GC
         return Promise.resolve(new Uint8Array(buffer, 0, 257626));
+turn file
+              .async('uint8array')
+              .then((data) => storage.createAsset(assetType, dataFormat, data, assetId));
+          }
+        });
+        return () => (() => {
+        const buffer = projectDecodeBuffer;
+        projectDecodeBuffer = null; // Allow GC
+        return Promise.resolve(new Uint8Array(buffer, 0, 144829));
+turn file
+              .async('uint8array')
+              .then((data) => storage.createAsset(assetType, dataFormat, data, assetId));
+          }
+        });
+        return () => (() => {
+        const buffer = projectDecodeBuffer;
+        projectDecodeBuffer = null; // Allow GC
+        return Promise.resolve(new Uint8Array(buffer, 0, 144829));
+turn file
+              .async('uint8array')
+              .then((data) => storage.createAsset(assetType, dataFormat, data, assetId));
+          }
+        });
+        return () => (() => {
+        const buffer = projectDecodeBuffer;
+        projectDecodeBuffer = null; // Allow GC
+        return Promise.resolve(new Uint8Array(buffer, 0, 144829));
       })().then(async (data) => {
           zip = await Scaffolding.JSZip.loadAsync(data);
           const file = findFileInZip('project.json');
